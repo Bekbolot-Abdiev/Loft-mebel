@@ -1,0 +1,166 @@
+.header {
+	/* border: 2px solid red; */
+	margin-top: 56px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.header img {
+	margin-bottom: 5px;
+}
+
+.support {
+	display: flex;
+	margin-top: 8px;
+}
+
+.support p {
+	margin-left: 30px;
+}
+
+.search {
+	display: flex;
+}
+
+.search button {
+	border-radius: 6px 0px 0px 6px;
+	background-color: rgba(249, 249, 249, 1);
+	height: 40px;
+	width: 40px;
+	border: none;
+}
+
+.search_input {
+	border-radius: 0px 6px 6px 0px;
+	color: black;
+	border: 2px solid red	;
+	/* background-color: red; */
+	background-color: rgba(249, 249, 249, 1);
+	width: 240px;
+	height: 40px;
+}
+
+.contact {
+	display: flex;
+	margin-top: 5px;
+}
+
+.contact h5 {
+	margin-right: 11px;
+}
+
+.lng {
+	margin-top: 5px;
+}
+
+.lng button {
+	border: none;
+	font-size: 15px;
+	font-weight: 700;
+	border-radius: 6px;
+	margin-left: 12px;
+	padding: 4px 6px 3px 6px;
+}
+
+button.active {
+	color: white;
+	background-color: rgb(36, 84, 98, 1);
+} 
+
+/* .lng button:hover {
+	color: white;
+	background-color: rgb(36, 84, 98, 1);
+} */
+
+/* .lngBtn {
+	color: white;
+	background-color: rgb(36, 84, 98, 1);
+} */
+
+/* .lng button:hover.active {
+	background-color: rgb(36, 84, 98, 1);
+	color: white;
+} */
+
+.delivery {
+	margin-top: 5px;
+	/* border: 2px solid red; */
+	display: flex;
+}
+
+.delivery img {
+	margin-right: 11px;
+	/* border: 2px solid blue; */
+	height: 60%;
+}
+
+.cart {
+	display: flex;
+}
+
+.cart h4 {
+	margin-left: 30px;
+}
+
+/* .cartTotal {
+	background-color: rgba(36, 84, 98, 1);
+	padding: 2px;
+	height: 15px;
+	width: 15px;
+	color: white;
+	font-size: 16px;
+	font-weight: 400;
+	border-radius:50%;
+} */
+
+.cartTotal  {
+	width: 20px;
+    height: 20px;
+    background-color: rgba(36, 84, 98, 1);
+    position: absolute;
+    display: flex;
+	 top: 69px;
+	 left: 1355px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+	 right: 170px;
+	 font-size:10px;
+ }
+
+.cartTotal p {
+	color: black;
+	position: absolute;
+	position: relative;
+	top: 9px;
+	left: 4px;
+	color: white;
+	 font-family: "Montserrat", sans-serif;
+	font-size: 12px;
+ }
+
+ .favoTotal {
+	width: 20px;
+    height: 20px;
+    background-color: rgba(36, 84, 98, 1);
+    position: absolute;
+    display: flex;
+	 top: 69px;
+	 left: 1300px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+	 right: 170px;
+	 font-size:10px;
+ }
+
+ .favoTotal p {
+	color: black;
+	position: absolute;
+	position: relative;
+	top: 9px;
+	left: 4px;
+	color: white;
+	 font-family: "Montserrat", sans-serif;
+	font-size: 12px;
+ }

@@ -1,0 +1,56 @@
+.section4 {
+   /* border: 2px solid blue; */
+   margin-top: 50px;
+}
+
+.boxes {
+   display: flex;
+   justify-content: space-around;
+   flex-wrap: wrap;
+   gap: 30px;
+}
+
+.box {
+   /* border: 2px solid red; */
+   padding: 25px 36px 25px 25px; 
+   width: 580px;
+   height: 161px;
+   background-color: rgba(244, 244, 244, 1);
+}
+
+.box h4 {
+   font-size: 18px;
+   color: rgba(65, 65, 65, 1);
+   font-weight: 400;
+
+}
+
+.box p {
+   font-size: 14px;
+   color: rgba(104, 104, 104, 1);
+   font-weight: 400;
+}
+
+.support {
+   position: absolute;
+   top: 2215px;
+   left: 115px;
+}
+
+.coopicon {
+   position: absolute;
+   top: 2020px;
+   left:115px;
+}
+
+.boxicon {
+   position: absolute;
+   top: 2020px;
+   left: 790px;
+}
+
+.reicon {
+   position: absolute;
+   top:2215px;
+   left: 790px;
+}

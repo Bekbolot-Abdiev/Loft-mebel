@@ -1,0 +1,103 @@
+.category {
+   margin-top: 20px;
+   /* border: 2px solid red; */
+   box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.07);
+}
+
+.boxes {
+   display: flex;
+   justify-content:space-evenly;
+}
+
+.box {
+   display: flex;
+   justify-content: space-between;
+}
+
+.box img {
+   max-width: 100%;
+   width: 21px;
+}
+
+.box p {
+   margin-left: 60px;
+   font-weight: 400;
+   font-size: 17px;
+   margin-top: 10px;
+   cursor: pointer;
+}
+
+
+/* .menu.active {
+   visibility: visible;
+} */
+
+.list_item {
+   /* display: block; */
+   display: flex;
+   margin-left: 1200px;
+   /* background-color: aqua; */
+}
+
+.list_item p {
+   margin-left: 10px;
+   font-weight: 400;
+   font-size: 17px;
+   margin-top: 10px;
+}
+
+.list_item img {
+   max-width: 100%;
+   width: 21px;
+}
+
+.hero_img img {
+   margin-top: 30px;
+   max-width: 100%;
+   width: 1500px;
+}
+
+.hero_text {
+   position: absolute;
+   top:50%;
+   left: 20%;
+}
+
+.hero_text h1 {
+   width: 216px;
+   color: rgba(60, 60, 60, 1);
+   line-height: 50px;
+   font-size: 50px;
+   font-family: "Playfair Display", serif;
+   font-weight: 700;
+}
+
+.hero_text p {
+   color: rgba(52, 52, 52, 1);
+   font-family: "Roboto Condensed", sans-serif;
+   font-weight: 500;
+   font-size: 18px;
+   padding-top: 15px;
+}
+
+.hero_text button {
+   padding: 14px 25px;
+   background-color: rgba(255, 255, 255, 1);
+   color: rgba(65, 65, 65, 1);
+   font-weight: 700;
+   font-size: 12px;
+   border-color: transparent;
+}
+
+.card {
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   margin-top: 15px;
+}
+
+a {
+   color: rgba(65, 65, 65, 1);
+   text-decoration: none;
+}
+

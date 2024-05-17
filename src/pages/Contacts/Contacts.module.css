@@ -1,0 +1,42 @@
+
+.contacts {
+   padding-top: 25px;
+}
+
+.contacts h1 {
+   font-size: 22px;
+   font-weight: 400;
+   font-family: "Roboto", sans-serif;
+   color: rgba(65, 65, 65, 1);
+
+}
+
+.all_contact {
+   padding-top: 55px;
+}
+
+.tel_email{
+   display: flex;
+   gap: 50px;
+}
+
+.tel {
+   display: flex;
+   gap: 20px;
+}
+
+.inst {
+   display: flex;
+   gap: 10px;
+}
+
+.map {
+   padding-top: 50px;
+   /* width: 1220px; */
+   /* margin: 0 auto; */
+}
+
+.googleMap {
+   width: 100%;
+}
+
